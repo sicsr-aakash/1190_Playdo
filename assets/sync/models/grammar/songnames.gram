@@ -1,0 +1,25 @@
+#JSGF V1.0;
+
+grammar songnames;
+
+<name> = time |
+florida |
+cimarron |
+jet |
+right |
+video |
+bounce |
+friday |
+tore |
+take |
+there |
+gone |
+zeus |
+email |
+burn |
+grenade |
+got |
+canon |
+song;
+
+public <names> = <name>+;

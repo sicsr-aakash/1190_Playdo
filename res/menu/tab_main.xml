@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.musicactionbar.TabMainActivity" >
+
+    <item
+        android:id="@+id/action_instructions"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/settings48"
+        android:title="Instructions"/>
+    
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/search48"
+        android:title="@string/action_search"/>
+    
+    <item
+        android:id="@+id/action_aboutus"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        
+        android:title="About Us"/>
+    
+
+</menu>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.musicaction.TabMainActivity" >
+    
+   
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ListView>
+    <LinearLayout android:id="@+id/mediacontrols"
+         android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ 		<ImageButton android:id="@+id/nowplayingbutt"
+ 		     android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/mic110"
+        android:layout_weight="1"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="10dp"
+        />
+ 		
+ 		<ImageButton android:id="@+id/prevbutt" 
+ 		    android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/prev70"
+        android:layout_weight="1"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="15dp"
+        />
+ 
+ 		<ImageButton android:id="@+id/playbutt" 
+ 		    android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/play90"
+        android:layout_weight="1"
+        android:background="@drawable/circularbutton"
+        android:layout_marginTop="15dp"
+        />
+ 
+ 		<ImageButton android:id="@+id/nextbutt" 
+ 		    android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/next70"
+        android:layout_weight="1"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="15dp"
+        />
+ 
+        
+    </LinearLayout>
+    
+    </LinearLayout>

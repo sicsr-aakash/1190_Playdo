@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar commands;
+
+public <item> = play | play song | pause | next | previous | artist | album | raise volume | lower volume;
